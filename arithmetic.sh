@@ -9,4 +9,5 @@ read b
 echo "Enter third number"
 read c
 
-
+compute=$(($a+$b*$c))
+echo $compute
