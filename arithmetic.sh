@@ -20,3 +20,7 @@ echo $y
 echo "The value of z is : "
 z=$(($c*$a/$b))
 echo $z
+
+echo "The value of l is : "
+l=$(($a%$b+$c))
+echo $l
