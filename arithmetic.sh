@@ -24,3 +24,6 @@ echo $z
 echo "The value of l is : "
 l=$(($a%$b+$c))
 echo $l
+
+my_dict = {1:"$x",2:"$y",3:"$z",4:"$l"}
+
