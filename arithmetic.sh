@@ -25,5 +25,6 @@ echo "The value of l is : "
 l=$(($a%$b+$c))
 echo $l
 
-my_dict = {1:"$x",2:"$y",3:"$z",4:"$l"}
-
+declare -A Values
+Values={1:"$x",2:"$y",3:"z"}
+echo "Values of arithmetic : " ${Values.values()}
