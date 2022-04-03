@@ -16,3 +16,7 @@ echo $x
 echo "The value of y is : "
 y=$(($a*$b+$c))
 echo $y
+
+echo "The value of z is : "
+z=$(($c*$a/$b))
+echo $z
