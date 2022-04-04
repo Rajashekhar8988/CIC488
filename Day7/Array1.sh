@@ -1,0 +1,16 @@
+#!/bin/bash
+Name[0]="Nani"
+Name[1]="Sampath"
+Name[2]="Komal"
+Name[3]="Raju"
+Name[4]="Sravan"
+Name[5]="Nithin"
+Name[6]="Mahesh"
+echo "First Name : ${Name[0]}"
+echo "Second Name : ${Name[1]}"
+echo "Third Name : ${Name[2]}"
+echo "Fourt Name : ${Name[3]}"
+echo "Fifth Name : ${Name[4]}"
+
+echo "first method : ${Name[*]}"
+echo "second method :${Name[@]}"
